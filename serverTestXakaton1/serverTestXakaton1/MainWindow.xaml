@@ -33,6 +33,7 @@
                 <DataGridTextColumn Header="Имя Компьютера" Binding="{Binding PcName}" />
                 <DataGridTextColumn Header="Версия OS" Binding="{Binding osVersion}" />
                 <DataGridTextColumn Header="Сборка OS" Binding="{Binding osBuild}" />
+                <DataGridTextColumn Header="Ip адресс" Binding="{Binding IpAdress}"/>
                 <!-- Добавьте другие столбцы по аналогии -->
             </DataGrid.Columns>
         </DataGrid>

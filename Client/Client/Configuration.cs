@@ -12,5 +12,7 @@ namespace Client
         public string osVersion { get; set;}
         public string osBuild { get; set;}
 
+        public string IpAdress { get; set;}
+
     }
 }
