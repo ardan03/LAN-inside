@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Cc+sqqOPf5QOAvUQP3GSKmzLwehqIWV9jlC2/thE6tFovA5bKv/SMWw3b1k9ielfjP2uUwMoi7X+cTVjo5BA2Q==",
+  "dgSpecHash": "Nc835yls3zQsrwsRH6ChPiPUEfr3sfp4CvM7HyKQjwoZP45Odl6iVwfV2HdXmHAXzRB6cMPLtpjfzPVqsfFB3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ardan\\OneDrive\\Desktop\\LAN inside\\Client\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\s1ren\\Source\\Repos\\LAN-inside\\Client\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ardan\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
-    "C:\\Users\\ardan\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512"
+    "C:\\Users\\s1ren\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\s1ren\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

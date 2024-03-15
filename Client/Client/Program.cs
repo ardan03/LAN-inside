@@ -12,9 +12,11 @@ try
 
     await tcpClient.ConnectAsync(ip, port);
     // сообщение для отправки
-    var message = "s1ren КЛИЕНТ";
+
+    var computerName = Environment.MachineName;
+
     // считыванием строку в массив байт
-    byte[] requestData = Encoding.UTF8.GetBytes(message);
+    byte[] requestData = Encoding.UTF8.GetBytes(computerName + " ");
     // отправляем данные
     await tcpClient.SendAsync(requestData);
     Console.WriteLine("Сообщение отправлено");
