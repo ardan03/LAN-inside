@@ -8,6 +8,7 @@ namespace Client
 {
     public class Configuration
     {
+        public bool Cnn {  get; set; }
         public string PcName { get; set; }
         public string osVersion { get; set; }
         public string osBuild { get; set; }
