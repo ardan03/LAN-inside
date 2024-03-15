@@ -8,25 +8,47 @@ using var tcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, 
 try
 {
     Configuration configuration = new Configuration();
-    Console.WriteLine("Введите ip: ");
+    Console.WriteLine("Введите IP: ");
     string ip = Console.ReadLine();
-    Console.WriteLine("Введите port: ");
+    Console.WriteLine("Введите порт: ");
     int port = Convert.ToInt32(Console.ReadLine());
 
     await tcpClient.ConnectAsync(ip, port);
-    // сообщение для отправки
 
+    // Получаем информацию об операционной системе
     configuration.PcName = Environment.MachineName;
-    // отправляем данные
-    var searcher = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem");
-    foreach (ManagementObject os in searcher.Get())
+    var osSearcher = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem");
+    foreach (ManagementObject os in osSearcher.Get())
     {
         configuration.osVersion = os["Caption"].ToString();
         configuration.osBuild = os["BuildNumber"].ToString();
     }
+
+    // Получаем информацию о продукте Kaspersky, если он установлен
+
+
+    ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_Product WHERE Name LIKE '%Kaspersky%'");
+    ManagementObjectCollection collection = searcher.Get();
+
+    foreach (ManagementObject product in collection)
+    {
+        configuration.Shield = product["Name"].ToString();
+        configuration.ShieldVer = product["Version"].ToString();
+
+        Console.WriteLine($"Антивирусный продукт: {configuration.Shield}");
+        Console.WriteLine($"Версия: {configuration.ShieldVer}");
+    }
+
+
+
+
+    // Отправляем данные на сервер
     string json = JsonConvert.SerializeObject(configuration);
     byte[] bytes = Encoding.UTF8.GetBytes(json);
     await tcpClient.SendAsync(bytes);
+
+
+
 }
 catch (Exception ex)
 {
