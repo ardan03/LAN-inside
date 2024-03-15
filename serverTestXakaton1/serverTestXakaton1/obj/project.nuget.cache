@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "niqVF0cArntXWwc5aFDYMPuaYHf7Sgh/avxpciVXVYnD1BlP5ZZvzP+IxRjBYoj6R84IfDCuA1qcgkKpXZW9xQ==",
+  "dgSpecHash": "cdBmEfJKWv9Tz4ch69wH7Eku4PLYb0wSZK0i9X8aUU05rcHcClgBwArs18cKd/xPl5qeiYgeoXBMJF+U3xsn/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
+  "projectFilePath": "C:\\Users\\memodel\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ardan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\memodel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

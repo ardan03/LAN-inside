@@ -30,9 +30,12 @@
 
         <DataGrid AutoGenerateColumns="False" x:Name="Reestr" Grid.Row="1">
             <DataGrid.Columns>
+                <DataGridTextColumn Header="Состояние" Binding="{Binding Cnn}" />
                 <DataGridTextColumn Header="Имя Компьютера" Binding="{Binding PcName}" />
                 <DataGridTextColumn Header="Версия OS" Binding="{Binding osVersion}" />
                 <DataGridTextColumn Header="Сборка OS" Binding="{Binding osBuild}" />
+                <DataGridTextColumn Header="Kaspersky" Binding="{Binding Shield}"/>
+                <DataGridTextColumn Header="Версия Kaspersky" Binding="{Binding ShieldVer}"/>
                 <!-- Добавьте другие столбцы по аналогии -->
             </DataGrid.Columns>
         </DataGrid>
