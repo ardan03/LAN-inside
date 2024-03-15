@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73a675d514f49a6f0f8bbb544ca54e56cc90bc67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1291b4dbf7554854aa8fe0775be26ebc470827a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
