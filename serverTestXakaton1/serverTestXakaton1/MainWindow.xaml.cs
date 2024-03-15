@@ -10,6 +10,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using System.Configuration;
+using Newtonsoft.Json;
+using System.Collections.ObjectModel;
 
 namespace serverTestXakaton1
 {
@@ -18,18 +22,20 @@ namespace serverTestXakaton1
     /// </summary>
     public partial class MainWindow : Window
     {
+        Configuratin configuratin = new Configuratin();
         public MainWindow()
         {
             InitializeComponent();
-
+            Reestr.ItemsSource = restr;
         }
         int _countClient = 0;
-
+        ObservableCollection<Configuratin> restr = new ObservableCollection<Configuratin>();
         async void BtnStat_Click(object sender, RoutedEventArgs e)
         {
+            
             IPEndPoint ipPoint = new IPEndPoint(IPAddress.Any, 8888);
             using Socket tcpListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
+            
             try
             {
                 tcpListener.Bind(ipPoint);
@@ -38,21 +44,31 @@ namespace serverTestXakaton1
 
                 while (true)
                 {
-                    // получаем подключение в виде TcpClient
-                    using var tcpClient = await tcpListener.AcceptAsync();
-                    // определяем буфер для получения данных
-                    byte[] responseData = new byte[512];
-                    int bytes = 0; // количество считанных байтов
-                    var response = new StringBuilder(); // для склеивания данных в строку
-                                                        // считываем данные 
+                    // получаем подключение в виде сокета
+                    Socket handler = await tcpListener.AcceptAsync();
+                    NetworkStream stream = new NetworkStream(handler);
+
+                    // Создаем буфер для чтения данных по частям
+                    byte[] buffer = new byte[4096];
+                    int bytesRead;
+                    StringBuilder sb = new StringBuilder();
+
+                    // Считываем данные по частям
                     do
                     {
-                        bytes = await tcpClient.ReceiveAsync(responseData);
-                        response.Append(Encoding.UTF8.GetString(responseData, 0, bytes));
-                    }
-                    while (bytes > 0);
-                    // выводим отправленные клиентом данные
-                   List.Items.Add(response.ToString());
+                        bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
+                        sb.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
+                    } while (bytesRead > 0);
+
+                    // Преобразуем полученные данные в строку JSON
+                    string receivedJson = sb.ToString();
+
+                    // Здесь вы можете обработать принятый JSON файл, например, десериализовать его в объект или выполнять другие операции с данными
+                    configuratin  = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
+                    // Закрываем соединени
+                    restr.Add(configuratin);
+                    handler.Shutdown(SocketShutdown.Both);
+                    handler.Close();
                 }
             }
             catch (Exception ex)
