@@ -1,0 +1,36 @@
+﻿<Window x:Class="serverTestXakaton1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:serverTestXakaton1"
+        mc:Ignorable="d"
+        Title="server" Height="450" Width="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <TextBlock FontSize="20" Text="Номер порта"/>
+            <TextBox Text="15000" x:Name="textBoxPort" Width="200" HorizontalAlignment="Left"/>
+            <TextBlock  FontSize="20" Text="IP Сервера"/>
+            <TextBox Text="26.18.206.123" x:Name="textBoxIP" Width="200" HorizontalAlignment="Left"/>
+            <Button x:Name="BtnStat" Content="start" Margin="10" Width="120" Height="30" HorizontalAlignment="Left" Click="BtnStat_Click"/>
+            <Button x:Name="BtnStop" Content="stop" Margin="10" Width="120" Height="30" HorizontalAlignment="Left"/>
+            <TextBlock Text="Количество пользователей"/>
+            <TextBlock Text="0" x:Name="CountPC"/>
+        </StackPanel>
+        <ListBox Grid.Row="1" Name="List">
+            <TextBlock FontWeight="Bold" TextDecorations="Underline" Text="Характеристики пользователя" />
+           
+
+        </ListBox>
+
+
+
+    </Grid>
+</Window>
