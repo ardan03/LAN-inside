@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s1ren\\Source\\Repos\\LAN-inside\\Client\\Client\\Client.csproj": {}
+    "C:\\Users\\ardan\\source\\repos\\LAN-inside\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s1ren\\Source\\Repos\\LAN-inside\\Client\\Client\\Client.csproj": {
+    "C:\\Users\\ardan\\source\\repos\\LAN-inside\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s1ren\\Source\\Repos\\LAN-inside\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\s1ren\\Source\\Repos\\LAN-inside\\Client\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\s1ren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s1ren\\Source\\Repos\\LAN-inside\\Client\\Client\\obj\\",
+        "projectPath": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\Client\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\ardan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s1ren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ardan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.Management": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -65,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

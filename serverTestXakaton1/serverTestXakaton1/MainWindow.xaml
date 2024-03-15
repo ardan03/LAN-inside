@@ -8,27 +8,34 @@
         Title="server" Height="450" Width="700">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
             <RowDefinition/>
-            <RowDefinition Height="200"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <StackPanel>
-            <TextBlock FontSize="20" Text="Номер порта"/>
-            <TextBox Text="15000" x:Name="textBoxPort" Width="200" HorizontalAlignment="Left"/>
-            <TextBlock  FontSize="20" Text="IP Сервера"/>
-            <TextBox Text="26.18.206.123" x:Name="textBoxIP" Width="200" HorizontalAlignment="Left"/>
-            <Button x:Name="BtnStat" Content="start" Margin="10" Width="120" Height="30" HorizontalAlignment="Left" Click="BtnStat_Click"/>
-            <Button x:Name="BtnStop" Content="stop" Margin="10" Width="120" Height="30" HorizontalAlignment="Left"/>
-            <TextBlock Text="Количество пользователей"/>
-            <TextBlock Text="0" x:Name="CountPC"/>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="144">
+                <TextBlock FontSize="15" Text="Номер порта" VerticalAlignment="Center"/>
+                <TextBox Text="15000" x:Name="textBoxPort" HorizontalAlignment="Left" Height="21" Width="100"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock  FontSize="20" Text="IP Сервера"/>
+                <TextBox Text="26.18.206.123" x:Name="textBoxIP" Width="200" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <StackPanel>
+                <Button x:Name="BtnStat" Content="start"  Width="120" Height="30" HorizontalAlignment="Left" Click="BtnStat_Click"/>
+            </StackPanel>
         </StackPanel>
-        <ListBox Grid.Row="1" Name="List">
-            <TextBlock FontWeight="Bold" TextDecorations="Underline" Text="Характеристики пользователя" />
-           
 
-        </ListBox>
+        <DataGrid AutoGenerateColumns="False" x:Name="Reestr" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя Компьютера" Binding="{Binding PcName}" />
+                <DataGridTextColumn Header="Версия OS" Binding="{Binding osVersion}" />
+                <DataGridTextColumn Header="Сборка OS" Binding="{Binding osBuild}" />
+                <!-- Добавьте другие столбцы по аналогии -->
+            </DataGrid.Columns>
+        </DataGrid>
 
 
 
