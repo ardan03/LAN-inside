@@ -28,21 +28,35 @@
             </StackPanel>
         </StackPanel>
 
-        <DataGrid AutoGenerateColumns="False" x:Name="Reestr" Grid.Row="1">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Состояние" Binding="{Binding Cnn}" />
-                <DataGridTextColumn Header="IP Адресс" Binding="{Binding ipAdress}" />
-                <DataGridTextColumn Header="Имя Компьютера" Binding="{Binding PcName}" />
-                <DataGridTextColumn Header="Версия OS" Binding="{Binding osVersion}" />
-                <DataGridTextColumn Header="Сборка OS" Binding="{Binding osBuild}" />
-                <DataGridTextColumn Header="Kaspersky" Binding="{Binding Shield}"/>
-                <DataGridTextColumn Header="Версия Kaspersky" Binding="{Binding ShieldVer}"/>
-                <DataGridTextColumn Header="Fire Wall" Binding="{Binding FireWallActive}"/>
-                <!-- Добавьте другие столбцы по аналогии -->
-            </DataGrid.Columns>
-        </DataGrid>
-
-
-
+        <!-- Используем ItemsControl для отображения данных каждого пользователя -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <ItemsControl x:Name="UsersContainer">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5">
+                            <StackPanel>
+                                <TextBlock Text="{Binding PcName}" FontWeight="Bold" FontSize="16"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="IP Адресс: "/>
+                                    <TextBlock Text="{Binding ipAdress}"/>
+                                </StackPanel>
+                                <TextBlock Text="Состояние: " Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding Cnn}" Margin="20,0,0,0"/>
+                                <TextBlock Text="Версия OS: " Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding osVersion}" Margin="20,0,0,0"/>
+                                <TextBlock Text="Сборка OS: " Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding osBuild}" Margin="20,0,0,0"/>
+                                <TextBlock Text="Kaspersky: " Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding Shield}" Margin="20,0,0,0"/>
+                                <TextBlock Text="Версия Kaspersky: " Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding ShieldVer}" Margin="20,0,0,0"/>
+                                <TextBlock Text="Fire Wall: " Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding FireWallActive}" Margin="20,0,0,0"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
     </Grid>
 </Window>
