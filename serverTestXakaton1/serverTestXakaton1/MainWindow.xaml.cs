@@ -6,24 +6,13 @@ using System.Windows;
 using System.Collections.ObjectModel;
 using System.IO;
 using Newtonsoft.Json;
+using static serverTestXakaton1.MainWindow;
 
 namespace serverTestXakaton1
 {
     public partial class MainWindow : Window
     {
-        // Определение класса конфигурации с новым полем Status
-        public class Configuratin
-        {
-            public string Cnn { get; set; }
-            public string PcName { get; set; }
-            public string osVersion { get; set; }
-            public string osBuild { get; set; }
-            public string Shield { get; set; }
-            public string ShieldVer { get; set; }
-            public string FireWallActive { get; set; }
-            public string ipAdress { get; set; }
-        }
-
+        
         ObservableCollection<Configuratin> users = new ObservableCollection<Configuratin>();
 
         public MainWindow()
@@ -62,7 +51,23 @@ namespace serverTestXakaton1
 
                     // Десериализация JSON и добавление пользователя в коллекцию
                     Configuratin user = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
-                    users.Add(user);
+                    
+
+                    bool replaced = false;
+                    for (int i = 0; i < users.Count; i++)
+                    {
+                        if (users[i].ipAdress == user.ipAdress)
+                        {
+                            users[i] = user;
+                            replaced = true;
+                            break;
+                        }
+                    }
+
+                    if (!replaced)
+                    {
+                        users.Add(user); // Если объект с таким IP-адресом не найден, добавляем новый объект в коллекцию
+                    }
 
                     handler.Shutdown(SocketShutdown.Both);
                     handler.Close();
