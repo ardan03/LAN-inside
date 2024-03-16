@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Client")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c67be84d30b054f1efbf6c7368bcc2d590fc839")]
-[assembly: System.Reflection.AssemblyProductAttribute("Client")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Client")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e28fa7b75fce0ac1ff5fbb7b55233cfb3e8114c")]
+[assembly: System.Reflection.AssemblyProductAttribute("serverTestXakaton1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

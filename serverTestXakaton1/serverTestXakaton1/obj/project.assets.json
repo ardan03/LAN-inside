@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ardan\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
+      "projectUniqueName": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
       "projectName": "serverTestXakaton1",
-      "projectPath": "C:\\Users\\ardan\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
+      "projectPath": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
       "packagesPath": "C:\\Users\\ardan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ardan\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\obj\\",
+      "outputPath": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,5 +126,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

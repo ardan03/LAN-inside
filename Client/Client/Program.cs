@@ -17,9 +17,11 @@ try
     string ip = Console.ReadLine();
     Console.WriteLine("Введите порт: ");
     int port = Convert.ToInt32(Console.ReadLine());
+
     while (true)
     {
         using var tcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
         await tcpClient.ConnectAsync(ip, port);
 
         // Получаем информацию об операционной системе
@@ -68,18 +70,15 @@ try
         }
         bool isPCRunning = System.Diagnostics.Process.GetProcesses().Any(p => p.ProcessName.ToLower().Contains("explorer"));
         configuration.Cnn = isPCRunning;
-        // Отправляем данные на сервер
         string json = JsonConvert.SerializeObject(configuration);
         byte[] bytes = Encoding.UTF8.GetBytes(json);
         await tcpClient.SendAsync(bytes);
         await System.Threading.Tasks.Task.Delay(5000);
     }
 
-
-
-
 }
 catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
+
