@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e28fa7b75fce0ac1ff5fbb7b55233cfb3e8114c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5da5ffaf05763b2e29d346139756b8e22ba22dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("serverTestXakaton1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
