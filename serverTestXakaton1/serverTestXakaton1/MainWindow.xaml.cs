@@ -22,51 +22,47 @@ namespace serverTestXakaton1
     /// </summary>
     public partial class MainWindow : Window
     {
-        Configuratin configuratin = new Configuratin();
         public MainWindow()
         {
             InitializeComponent();
             Reestr.ItemsSource = restr;
         }
-        int _countClient = 0;
+
+        Configuratin configuratin = new Configuratin();
         ObservableCollection<Configuratin> restr = new ObservableCollection<Configuratin>();
+        
         async void BtnStat_Click(object sender, RoutedEventArgs e)
         {
-            
             IPEndPoint ipPoint = new IPEndPoint(IPAddress.Any, 8888);
             using Socket tcpListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            
+
             try
             {
                 tcpListener.Bind(ipPoint);
-                tcpListener.Listen();    // запускаем сервер
-                MessageBox.Show("Сервер запущен. Ожидание подключений... ");
+                tcpListener.Listen();
+                MessageBox.Show("Сервер запущен. Ожидание подключений...");
 
                 while (true)
                 {
-                    // получаем подключение в виде сокета
                     Socket handler = await tcpListener.AcceptAsync();
                     NetworkStream stream = new NetworkStream(handler);
 
-                    // Создаем буфер для чтения данных по частям
                     byte[] buffer = new byte[4096];
                     int bytesRead;
                     StringBuilder sb = new StringBuilder();
 
-                    // Считываем данные по частям
                     do
                     {
                         bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
                         sb.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
                     } while (bytesRead > 0);
 
-                    // Преобразуем полученные данные в строку JSON
                     string receivedJson = sb.ToString();
 
-                    // Здесь вы можете обработать принятый JSON файл, например, десериализовать его в объект или выполнять другие операции с данными
-                    configuratin  = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
-                    // Закрываем соединени
+                    // Десериализация JSON и обновление списка с информацией о конфигурации
+                    configuratin = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
                     restr.Add(configuratin);
+
                     handler.Shutdown(SocketShutdown.Both);
                     handler.Close();
                 }

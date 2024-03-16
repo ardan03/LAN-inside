@@ -5,7 +5,8 @@ using Newtonsoft.Json;
 using Client;
 
 
-using var tcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+
 try
 {
     Configuration configuration = new Configuration();
@@ -14,10 +15,9 @@ try
     Console.WriteLine("Введите порт: ");
     int port = Convert.ToInt32(Console.ReadLine());
 
-
-
     while (true)
     {
+        using var tcpClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         await tcpClient.ConnectAsync(ip, port);
 
         // Получаем информацию об операционной системе
@@ -30,8 +30,6 @@ try
         }
 
         // Получаем информацию о продукте Kaspersky, если он установлен
-
-
         ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_Product WHERE Name LIKE '%Kaspersky%'");
         ManagementObjectCollection collection = searcher.Get();
 
@@ -44,37 +42,23 @@ try
             Console.WriteLine($"Версия: {configuration.ShieldVer}");
         }
 
-        bool status = IsSystemOnline();
-        configuration.Cnn = status;
+        // Проверяем состояние ПК
+        bool isPCRunning = System.Diagnostics.Process.GetProcesses().Any(p => p.ProcessName.ToLower().Contains("explorer"));
 
+        // Добавляем информацию о состоянии ПК
+        configuration.Cnn = isPCRunning;
 
         // Отправляем данные на сервер
         string json = JsonConvert.SerializeObject(configuration);
         byte[] bytes = Encoding.UTF8.GetBytes(json);
         await tcpClient.SendAsync(bytes);
 
-        
+        // Задержка перед следующей отправкой
+        await System.Threading.Tasks.Task.Delay(5000);
     }
-
 }
 catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
 
-static bool IsSystemOnline()
-{
-    var searcher = new ManagementObjectSearcher("SELECT * FROM Win32_OperatingSystem");
-    foreach (ManagementObject os in searcher.Get())
-    {
-        if (os["LastBootUpTime"] != null)
-        {
-            DateTime lastBootUpTime = ManagementDateTimeConverter.ToDateTime(os["LastBootUpTime"].ToString());
-            DateTime currentTime = DateTime.Now;
-            TimeSpan uptime = currentTime - lastBootUpTime;
-            if (uptime.TotalSeconds > 0)
-                return true; // ПК включен
-        }
-    }
-    return false; // ПК выключен
-}
