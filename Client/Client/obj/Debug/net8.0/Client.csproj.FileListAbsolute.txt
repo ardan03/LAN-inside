@@ -59,3 +59,5 @@ C:\Users\memodel\Source\Repos\LAN-inside\Client\Client\obj\Debug\net8.0\refint\C
 C:\Users\memodel\Source\Repos\LAN-inside\Client\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\memodel\Source\Repos\LAN-inside\Client\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
 C:\Users\memodel\Source\Repos\LAN-inside\Client\Client\obj\Debug\net8.0\ref\Client.dll
+C:\Users\ardan\source\repos\LAN-inside\Client\Client\obj\Debug\net8.0\Interop.NetFwTypeLib.dll
+C:\Users\ardan\source\repos\LAN-inside\Client\Client\obj\Debug\net8.0\Client.csproj.ResolveComReference.cache

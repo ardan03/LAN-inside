@@ -2,6 +2,7 @@
 using System.Net;
 using System.Text;
 using System.Windows;
+using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -63,10 +64,24 @@ namespace serverTestXakaton1
                     // Преобразуем полученные данные в строку JSON
                     string receivedJson = sb.ToString();
 
-                    // Здесь вы можете обработать принятый JSON файл, например, десериализовать его в объект или выполнять другие операции с данными
-                    configuratin  = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
+                    // Десериализация JSON и обновление списка с информацией о конфигурации
+                    configuratin = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
                     // Закрываем соединени
-                    restr.Add(configuratin);
+                    bool replaced = false;
+                    for (int i = 0; i < restr.Count; i++)
+                    {
+                        if (restr[i].ipAdress == configuratin.ipAdress)
+                        {
+                            restr[i] = configuratin;
+                            replaced = true;
+                            break;
+                        }
+                    }
+
+                    if (!replaced)
+                    {
+                        restr.Add(configuratin); // Если объект с таким IP-адресом не найден, добавляем новый объект в коллекцию
+                    }
                     handler.Shutdown(SocketShutdown.Both);
                     handler.Close();
                 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\memodel\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj": {}
+    "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\memodel\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj": {
+    "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\memodel\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
+        "projectUniqueName": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
         "projectName": "serverTestXakaton1",
-        "projectPath": "C:\\Users\\memodel\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
-        "packagesPath": "C:\\Users\\memodel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\memodel\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\obj\\",
+        "projectPath": "C:\\Users\\ardan\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\serverTestXakaton1.csproj",
+        "packagesPath": "C:\\Users\\ardan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ardan\\Source\\Repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\memodel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ardan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
