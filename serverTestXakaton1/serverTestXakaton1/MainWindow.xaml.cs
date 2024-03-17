@@ -1,10 +1,8 @@
-﻿using System;
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using System.Net;
 using System.Text;
 using System.Windows;
 using System.Collections.ObjectModel;
-using System.IO;
 using Newtonsoft.Json;
 
 namespace serverTestXakaton1
@@ -51,7 +49,23 @@ namespace serverTestXakaton1
 
                     // Десериализация JSON и добавление пользователя в коллекцию
                     Configuratin user = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
-                    users.Add(user);
+                    
+
+                    bool replaced = false;
+                    for (int i = 0; i < users.Count; i++)
+                    {
+                        if (users[i].ipAdress == user.ipAdress)
+                        {
+                            users[i] = user;
+                            replaced = true;
+                            break;
+                        }
+                    }
+
+                    if (!replaced)
+                    {
+                        users.Add(user); // Если объект с таким IP-адресом не найден, добавляем новый объект в коллекцию
+                    }
 
                     handler.Shutdown(SocketShutdown.Both);
                     handler.Close();

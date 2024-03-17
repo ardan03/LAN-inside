@@ -15,8 +15,7 @@ try
     Configuration configuration = new Configuration();
     Console.WriteLine("Введите IP: ");
     string ip = Console.ReadLine();
-    Console.WriteLine("Введите порт: ");
-    int port = Convert.ToInt32(Console.ReadLine());
+    int port = 8888;
 
     while (true)
     {
@@ -31,6 +30,11 @@ try
         {
             configuration.osVersion = os["Caption"].ToString();
             configuration.osBuild = os["BuildNumber"].ToString();
+        }
+        if(!configuration.osVersion.Contains("11") && !configuration.osVersion.Contains("10"))
+        {
+            Console.WriteLine("An operating system update is required");
+            configuration.osVersion += "(Error)";
         }
 
         // Получаем информацию о продукте Kaspersky, если он установлен
@@ -47,14 +51,18 @@ try
             Console.WriteLine($"Антивирусный продукт: {configuration.Shield}");
             Console.WriteLine($"Версия: {configuration.ShieldVer}");
         }
+        if (configuration.ShieldVer == null || configuration.ShieldVer.Contains("21.16.6.467"))
+        {
+            Console.WriteLine("An antivirus system update is required");
+            configuration.ShieldVer = "Error";
+            configuration.Shield = "Error";
+        }
 
         INetFwMgr manager = Activator.CreateInstance(Type.GetTypeFromProgID("HNetCfg.FwMgr")) as INetFwMgr;
         if (manager != null)
         {
             // Получаем текущий статус Firewall
             configuration.FireWallActive = manager.LocalPolicy.CurrentProfile.FirewallEnabled;
-
-            Console.WriteLine("Firewall Enabled: " + configuration.FireWallActive);
         }
         else
         {

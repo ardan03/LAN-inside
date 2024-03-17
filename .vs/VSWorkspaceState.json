@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Client",
-    "\\Client\\Client"
+    "\\Client\\Client",
+    "\\serverTestXakaton1",
+    "\\serverTestXakaton1\\serverTestXakaton1"
   ],
   "SelectedNode": "\\Client\\Client\\Program.cs",
   "PreviewInSolutionExplorer": false

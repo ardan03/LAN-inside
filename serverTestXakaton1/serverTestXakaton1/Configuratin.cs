@@ -8,7 +8,7 @@ namespace serverTestXakaton1
 {
     public class Configuratin
     {
-        public string Cnn {  get; set; }
+        public bool Cnn {  get; set; }
         public string ipAdress { get; set; }
         public string PcName { get; set; }
         public string osVersion { get; set; }
