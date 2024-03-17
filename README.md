@@ -3,8 +3,8 @@
   <img src="https://github.com/ardan03/LAN-inside/blob/master/kernel_panic.png" width="350" title="hover text">
   
 </p>
-<h1 style="color: red">Kernel Panic
-</h1>
+<p color ="red">Kernel Panic
+</p>
 
 ## Список команды:
 1. *Доржиев Ардан Баирович*
