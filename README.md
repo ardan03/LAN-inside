@@ -1,4 +1,8 @@
-![LogoTeam](https://github.com/ardan03/LAN-inside/blob/master/kernel_panic.png)
+
+<p align="center">
+  <img src="https://github.com/ardan03/LAN-inside/blob/master/kernel_panic.png" width="350" title="hover text">
+  
+</p>
 
 ## Список команды:
 1. *Доржиев Ардан Баирович*
