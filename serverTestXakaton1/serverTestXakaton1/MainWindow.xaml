@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Horizontal">
             <StackPanel Width="144">
-                <TextBlock FontSize="15" Text="Номер порта" VerticalAlignment="Center"/>
+                <TextBlock FontSize="20" Text="Номер порта" VerticalAlignment="Center"/>
                 <TextBox Text="8888" x:Name="textBoxPort" HorizontalAlignment="Left" Height="21" Width="100"/>
             </StackPanel>
             <StackPanel>
@@ -24,7 +24,7 @@
                 <TextBox x:Name="ipSrev" Width="200" HorizontalAlignment="Left"/>
             </StackPanel>
             <StackPanel>
-                <Button x:Name="BtnStat" Content="start"  Width="120" Height="30" HorizontalAlignment="Left" Click="BtnStat_Click"/>
+                <Button x:Name="BtnStat" Margin="20" Content="start"  Width="120" Height="30" HorizontalAlignment="Left" Click="BtnStat_Click"/>
             </StackPanel>
         </StackPanel>
 
