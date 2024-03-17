@@ -6,10 +6,6 @@
 <h1 style="color: red">Kernel Panic
 </h1>
 
-<body>
-  <p style="color:red;">Red paragraph text</p>
-</body>
-
 ## Список команды:
 1. *Доржиев Ардан Баирович*
 2. *Сулаев Солбон Олегович*
