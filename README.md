@@ -19,6 +19,7 @@ Windows: 10 и выше
 # Для запуска сервера необходимо:
 \LAN-inside\serverTestXakaton1\serverTestXakaton1\bin\Debug\net8.0-windows перейти по этому пути и запусить файл serverTestXakaton1.exe
 затем нажать кнопку "Start" и ожидать подключения клиентов.
+![Фото сервера] (https://github.com/ardan03/LAN-inside/blob/master/Server1.png)
 
 
 ## Для запуска клиента необходимо:
