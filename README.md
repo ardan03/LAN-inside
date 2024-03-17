@@ -19,7 +19,7 @@ Windows: 10 и выше
 # Для запуска сервера необходимо:
 \LAN-inside\serverTestXakaton1\serverTestXakaton1\bin\Debug\net8.0-windows перейти по этому пути и запусить файл serverTestXakaton1.exe
 затем нажать кнопку "Start" и ожидать подключения клиентов.
-![Photo server] (https://github.com/ardan03/LAN-inside/blob/master/Server1.png)
+![Photo server] (https://gas-kvas.com/uploads/posts/2023-03/1678093105_gas-kvas-com-p-fon-prirodi-dlya-risunka-krasivii-18.jpg)
 
 
 ## Для запуска клиента необходимо:
