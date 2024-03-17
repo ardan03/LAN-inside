@@ -15,3 +15,7 @@ Windows: 10 и выше
 
 
 ## Инструкция для работы с приложением
+
+# Чтобы запустить сервер надо:
+\LAN-inside\serverTestXakaton1\serverTestXakaton1\bin\Debug\net8.0-windows перейти по этому пути и запусить файл serverTestXakaton1.exe
+затем нажать кнопку старт и ожидать подключения.
