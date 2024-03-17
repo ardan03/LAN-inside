@@ -15,7 +15,7 @@ try
     Configuration configuration = new Configuration();
     Console.WriteLine("Введите IP: ");
     string ip = Console.ReadLine();
-    int port = 8888;
+    int port = int.Parse(Console.ReadLine());
 
     while (true)
     {

@@ -4,6 +4,7 @@ using System.Text;
 using System.Windows;
 using System.Collections.ObjectModel;
 using Newtonsoft.Json;
+using System.Configuration;
 
 namespace serverTestXakaton1
 {
@@ -12,11 +13,20 @@ namespace serverTestXakaton1
        
 
         ObservableCollection<Configuratin> users = new ObservableCollection<Configuratin>();
-
+        static string hostName = Dns.GetHostName();
+        IPAddress[] ipAddresses = Dns.GetHostAddresses(hostName);
         public MainWindow()
         {
             InitializeComponent();
             UsersContainer.ItemsSource = users;
+            foreach (IPAddress ipA in ipAddresses)
+            {
+                if (ipA.AddressFamily == AddressFamily.InterNetwork) // Выбираем IPv4 адреса
+                {
+                    ipSrev.Text = ipA.ToString();
+                    break;
+                }
+            }
         }
 
         async void BtnStat_Click(object sender, RoutedEventArgs e)

@@ -17,11 +17,11 @@
         <StackPanel Orientation="Horizontal">
             <StackPanel Width="144">
                 <TextBlock FontSize="15" Text="Номер порта" VerticalAlignment="Center"/>
-                <TextBox Text="15000" x:Name="textBoxPort" HorizontalAlignment="Left" Height="21" Width="100"/>
+                <TextBox Text="8888" x:Name="textBoxPort" HorizontalAlignment="Left" Height="21" Width="100"/>
             </StackPanel>
             <StackPanel>
                 <TextBlock  FontSize="20" Text="IP Сервера"/>
-                <TextBox Text="26.18.206.123" x:Name="textBoxIP" Width="200" HorizontalAlignment="Left"/>
+                <TextBox x:Name="ipSrev" Width="200" HorizontalAlignment="Left"/>
             </StackPanel>
             <StackPanel>
                 <Button x:Name="BtnStat" Content="start"  Width="120" Height="30" HorizontalAlignment="Left" Click="BtnStat_Click"/>
