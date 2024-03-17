@@ -16,7 +16,7 @@ Windows: 10 и выше
 
 ## Инструкция для работы с приложением
 
-# Для запуска сервера необходимо:
+## Для запуска сервера необходимо:
 \LAN-inside\serverTestXakaton1\serverTestXakaton1\bin\Debug\net8.0-windows перейти по этому пути и запусить файл serverTestXakaton1.exe
 затем нажать кнопку "Start" и ожидать подключения клиентов.
 ![Photo server](https://github.com/ardan03/LAN-inside/blob/master/Server1.png)
