@@ -2,8 +2,8 @@
 <p align="center">
   <img src="https://github.com/ardan03/LAN-inside/blob/master/kernel_panic.png" width="350" title="hover text">
   
-<h1>
-  Kernel Panic
+<h1 center>
+   Team: Kernel Panic
 </h1>
 
 ## Список команды:
