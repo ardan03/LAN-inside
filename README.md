@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://github.com/ardan03/LAN-inside/blob/master/kernel_panic.png" width="350" title="hover text">
   
-<h1 center>
+<h1 align="center">
    Team: Kernel Panic
 </h1>
 
