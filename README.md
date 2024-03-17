@@ -28,3 +28,4 @@ Windows: 10 и выше
 ![Client](https://github.com/ardan03/LAN-inside/blob/master/Client.png)
 # Пример работы программы
 ![StartProgram](https://github.com/ardan03/LAN-inside/blob/master/StartProgram.png)
+Красным цветом обозначаются отсутствующие элементы у клиента. А зеленый цвет означает что все соответствует требуемым правилам
