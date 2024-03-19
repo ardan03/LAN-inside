@@ -19,6 +19,7 @@
 
 ## Требования к системе
 Windows: 10 и выше
+Microsoft Visual Studio 2022 +
 Антивурусная система: Kaspersky
 
 
