@@ -28,62 +28,65 @@ namespace serverTestXakaton1
                 }
             }
         }
-
-        async void BtnStat_Click(object sender, RoutedEventArgs e)
+        private async Task HandleClientAsync(TcpClient client)
         {
-            IPEndPoint ipPoint = new IPEndPoint(IPAddress.Any, 8888);
-            using Socket tcpListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
             try
             {
-                tcpListener.Bind(ipPoint);
-                tcpListener.Listen();
-                MessageBox.Show("Сервер запущен. Ожидание подключений...");
-
-                while (true)
+                using (NetworkStream stream = client.GetStream())
                 {
-                    Socket handler = await tcpListener.AcceptAsync();
-                    NetworkStream stream = new NetworkStream(handler);
+                    byte[] buffer = new byte[client.ReceiveBufferSize];
+                    SecurityRule securityRule = new SecurityRule();
 
-                    byte[] buffer = new byte[4096];
-                    int bytesRead;
-                    StringBuilder sb = new StringBuilder();
+                    string jsonData = JsonConvert.SerializeObject(securityRule);
+                    byte[] jsonDataBytes = Encoding.UTF8.GetBytes(jsonData);
+                    await stream.WriteAsync(jsonDataBytes, 0, jsonDataBytes.Length);
 
-                    do
+                    while (true)
                     {
-                        bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
-                        sb.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
-                    } while (bytesRead > 0);
-
-                    string receivedJson = sb.ToString();
-
-                    // Десериализация JSON и добавление пользователя в коллекцию
-                    Configuratin user = JsonConvert.DeserializeObject<Configuratin>(receivedJson);
-                    
-
-                    bool replaced = false;
-                    for (int i = 0; i < users.Count; i++)
-                    {
-                        if (users[i].ipAdress == user.ipAdress)
-                        {
-                            users[i] = user;
-                            replaced = true;
+                        int readBytes = await stream.ReadAsync(buffer, 0, buffer.Length);
+                        if (readBytes <= 0)
                             break;
-                        }
-                    }
 
-                    if (!replaced)
-                    {
-                        users.Add(user); // Если объект с таким IP-адресом не найден, добавляем новый объект в коллекцию
+                        string receivedData = Encoding.UTF8.GetString(buffer, 0, readBytes);
+                        Configuratin security = JsonConvert.DeserializeObject<Configuratin>(receivedData);
+                        users.Add(security);
                     }
-
-                    handler.Shutdown(SocketShutdown.Both);
-                    handler.Close();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Ошибка при обработке клиента: " + ex.Message);
+            }
+            finally
+            {
+                client.Close();
+                MessageBox.Show("Соединение с клиентом закрыто.");
+            }
+        }
+        async void BtnStat_Click(object sender, RoutedEventArgs e)
+        {
+            TcpListener server = new TcpListener(IPAddress.Any, 8888);
+            server.Start();
+            MessageBox.Show("Сервер запущен. Ожидание подключений...");
+
+            try
+            {
+                while (true)
+                {
+                    TcpClient client = await server.AcceptTcpClientAsync();
+
+                    _ = HandleClientAsync(client);
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при подключении клиента: " + ex.Message);
+            }
+            finally
+            {
+                server.Stop();
+                MessageBox.Show("Сервер остановлен.");
             }
         }
     }
