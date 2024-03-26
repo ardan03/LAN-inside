@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/ardan03/LAN-inside/blob/master/kernel_panic.png" width="350" title="hover text">
+  <img src="https://github.com/ardan03/LAN-inside/blob/master/Photos/kernel_panic.png" width="350" title="hover text">
   
 <h1 align="center">
    Team: Kernel Panic
@@ -19,6 +19,7 @@
 
 ## Требования к системе
 Windows: 10 и выше
+Microsoft Visual Studio 2022 +
 Антивурусная система: Kaspersky
 
 
@@ -27,13 +28,13 @@ Windows: 10 и выше
 ## Для запуска сервера необходимо:
 \LAN-inside\serverTestXakaton1\serverTestXakaton1\bin\Debug\net8.0-windows перейти по этому пути и запусить файл serverTestXakaton1.exe
 затем нажать кнопку "Start" и ожидать подключения клиентов.
-![Photo server](https://github.com/ardan03/LAN-inside/blob/master/Server1.png)
+![Photo server](https://github.com/ardan03/LAN-inside/blob/master/Photos/Server1.png)
 
 
 ## Для запуска клиента необходимо:
 На стороне клиента нужно зайти по данному пути: "\LAN-inside\serverTestXakaton1\Client\bin\Debug\net8.0"
 Затем нужно ввести ip адресс сервера, и указать порт. После этого вы будете подключены к серверу.(Возможна задержка 30-40 секунд из за поиска антивирусной системы Kaspersky).После запуска клиент каждые 5 секунд отправляет данные на сервер.
-![Client](https://github.com/ardan03/LAN-inside/blob/master/Client.png)
+![Client](https://github.com/ardan03/LAN-inside/blob/master/Photos/Client.png)
 # Пример работы программы
-![StartProgram](https://github.com/ardan03/LAN-inside/blob/master/StartProgram.png)
+![StartProgram](https://github.com/ardan03/LAN-inside/blob/master/Photos/StartProgram.png)
 Красным цветом обозначаются отсутствующие элементы у клиента. А зеленый цвет означает что все соответствует требуемым правилам
