@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Horizontal">
             <StackPanel Width="144">
-                <TextBlock FontSize="20" Text="Номер порта" VerticalAlignment="Center"/>
+                <TextBlock FontSize="20" Text="Номер порта"/>
                 <TextBox Text="8888" x:Name="textBoxPort" HorizontalAlignment="Left" Height="21" Width="100"/>
             </StackPanel>
             <StackPanel>

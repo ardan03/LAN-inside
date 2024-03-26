@@ -158,12 +158,17 @@ try
         return;
     }
 
+   
     while (true)
     {
-        string info = JsonConvert.SerializeObject(configuration);
-        byte[] responseDataBytes = Encoding.UTF8.GetBytes(info);
-        stream.Write(responseDataBytes, 0, responseDataBytes.Length);
-        System.Threading.Thread.Sleep(10000); // Задержка на 1 секунду
+        
+            string info = JsonConvert.SerializeObject(configuration);
+            byte[] responseDataBytes = Encoding.UTF8.GetBytes(info);
+            stream.Write(responseDataBytes, 0, responseDataBytes.Length);
+            
+        
+      
+        
     }
     // Закрываем соединение
     client.Close();

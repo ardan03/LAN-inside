@@ -10,8 +10,6 @@ namespace serverTestXakaton1
 {
     public partial class MainWindow : Window
     {
-       
-
         ObservableCollection<Configuratin> users = new ObservableCollection<Configuratin>();
         static string hostName = Dns.GetHostName();
         IPAddress[] ipAddresses = Dns.GetHostAddresses(hostName);
@@ -28,6 +26,7 @@ namespace serverTestXakaton1
                 }
             }
         }
+   
         private async Task HandleClientAsync(TcpClient client)
         {
             try
@@ -66,11 +65,11 @@ namespace serverTestXakaton1
         async void BtnStat_Click(object sender, RoutedEventArgs e)
         {
             TcpListener server = new TcpListener(IPAddress.Any, 8888);
-            server.Start();
-            MessageBox.Show("Сервер запущен. Ожидание подключений...");
-
             try
             {
+                server.Start();
+                MessageBox.Show("Сервер запущен. Ожидание подключений...");
+
                 while (true)
                 {
                     TcpClient client = await server.AcceptTcpClientAsync();
