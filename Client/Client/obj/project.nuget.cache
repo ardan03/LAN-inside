@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2ayTmVLowErOQj1mW5eQ38gVFvIpQFqLVpHhEEstPGY3qxYzit0U/aR+x5dCuEmIWkHT5Q59Axm0AM2U7uRcNQ==",
+  "dgSpecHash": "FlECj9uNGeXGjOj3KNQhWk/VB7eLuDFbdQq6+IN8v9JpKrG3bGXLn0YZBTRW0QIvcW9wBV2ZrTYjWJn2zBhXBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s1ren\\source\\repos\\LAN-inside\\Client\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\unicorn\\Source\\Repos\\LAN-inside\\Client\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\s1ren\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\s1ren\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
-    "C:\\Users\\s1ren\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512"
+    "C:\\Users\\unicorn\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\unicorn\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\unicorn\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

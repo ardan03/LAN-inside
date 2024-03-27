@@ -209,7 +209,7 @@ namespace ClientWPF
         }
         bool checkAccuracyFireWall(SecurityRule inputRule)
         {
-            if (inputRule.FireWall == configuration.FireWallActive)
+            if (inputRule.FireWall != configuration.FireWallActive)
             {
                 return false;
             }

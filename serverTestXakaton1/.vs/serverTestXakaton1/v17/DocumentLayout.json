@@ -1,0 +1,323 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\views\\rulepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\views\\rulepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\securityrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\securityrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\theme\\menubuttontheme.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\theme\\menubuttontheme.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\theme\\textboxtheme.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\theme\\textboxtheme.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\views\\rulepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\views\\rulepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\theme\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\theme\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\theme\\menubuttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\theme\\menubuttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\servertestxakaton1\\servertestxakaton1\\configuratin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D8506A-6780-452B-A478-4C60EE7E8A8B}|serverTestXakaton1\\serverTestXakaton1.csproj|solutionrelative:servertestxakaton1\\configuratin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "serverTestXakaton1\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:39:43.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Views\\MainView.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "serverTestXakaton1\\Views\\MainView.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:46:10.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "serverTestXakaton1\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:40:05.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "serverTestXakaton1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:31:41.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Views\\MainView.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainView.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:42:08.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "serverTestXakaton1\\Views\\MainPage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:44:55.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RulePage.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\RulePage.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Views\\RulePage.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\RulePage.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\Views\\RulePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:41:10.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\MainWindow.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:31:41.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SecurityRule.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\SecurityRule.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\SecurityRule.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\SecurityRule.cs",
+              "RelativeToolTip": "serverTestXakaton1\\SecurityRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:31:41.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuButtonTheme.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\MenuButtonTheme.xaml.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Theme\\MenuButtonTheme.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\MenuButtonTheme.xaml.cs",
+              "RelativeToolTip": "serverTestXakaton1\\Theme\\MenuButtonTheme.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwBIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T03:03:32.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TextBoxTheme.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\TextBoxTheme.xaml.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Theme\\TextBoxTheme.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\TextBoxTheme.xaml.cs",
+              "RelativeToolTip": "serverTestXakaton1\\Theme\\TextBoxTheme.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwBcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T03:03:26.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RulePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\RulePage.xaml.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Views\\RulePage.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\RulePage.xaml.cs",
+              "RelativeToolTip": "serverTestXakaton1\\Views\\RulePage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:47:17.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\AssemblyInfo.cs",
+              "RelativeToolTip": "serverTestXakaton1\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:53:47.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Views\\MainPage.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\Views\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:40:55.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\App.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\App.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\App.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:53:26.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TextBoxTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\TextBoxTheme.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Theme\\TextBoxTheme.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\TextBoxTheme.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\Theme\\TextBoxTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:39:29.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MenuButtonTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\MenuButtonTheme.xaml",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Theme\\MenuButtonTheme.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Theme\\MenuButtonTheme.xaml",
+              "RelativeToolTip": "serverTestXakaton1\\Theme\\MenuButtonTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:38:22.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Configuratin.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Configuratin.cs",
+              "RelativeDocumentMoniker": "serverTestXakaton1\\Configuratin.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\serverTestXakaton1\\serverTestXakaton1\\Configuratin.cs",
+              "RelativeToolTip": "serverTestXakaton1\\Configuratin.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:31:41.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

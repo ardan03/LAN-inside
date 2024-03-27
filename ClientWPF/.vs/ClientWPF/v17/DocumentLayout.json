@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68142089-CFE4-449F-A546-26E95E4C9744}|ClientWPF\\ClientWPF.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\clientwpf\\clientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68142089-CFE4-449F-A546-26E95E4C9744}|ClientWPF\\ClientWPF.csproj|solutionrelative:clientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68142089-CFE4-449F-A546-26E95E4C9744}|ClientWPF\\ClientWPF.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\clientwpf\\clientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68142089-CFE4-449F-A546-26E95E4C9744}|ClientWPF\\ClientWPF.csproj|solutionrelative:clientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68142089-CFE4-449F-A546-26E95E4C9744}|ClientWPF\\ClientWPF.csproj|c:\\users\\unicorn\\source\\repos\\lan-inside\\clientwpf\\clientwpf\\class\\configurationcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68142089-CFE4-449F-A546-26E95E4C9744}|ClientWPF\\ClientWPF.csproj|solutionrelative:clientwpf\\class\\configurationcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\ClientWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClientWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\ClientWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ClientWPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAADwv9QAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:37:17.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configurationcs.cs",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\ClientWPF\\class\\Configurationcs.cs",
+              "RelativeDocumentMoniker": "ClientWPF\\class\\Configurationcs.cs",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\ClientWPF\\class\\Configurationcs.cs",
+              "RelativeToolTip": "ClientWPF\\class\\Configurationcs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T02:37:17.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\ClientWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ClientWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\unicorn\\source\\repos\\LAN-inside\\ClientWPF\\ClientWPF\\MainWindow.xaml",
+              "RelativeToolTip": "ClientWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T02:37:17.447Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
