@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using serverTestXakaton1.MainViewModel;
+using serverTestXakaton1.ViewModel;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;

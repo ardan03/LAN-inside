@@ -10,7 +10,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace serverTestXakaton1.MainViewModel
+namespace serverTestXakaton1.ViewModel
 {
     public class MainViewModel : ViewModedBase
     {
